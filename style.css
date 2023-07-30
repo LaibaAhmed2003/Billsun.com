@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Color: #6b9f00 */
+#main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 1520px;
+}
+.front-page{
+    background-image: url('short.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.inner-front{
+    background-color: rgba(2, 2, 12, 0.7);
+}
+.logo{
+    height: 46px;
+    width: 115px;
+}
+.navlist a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 15px;
+    font-size: 13px;
+}
+.navlist a:hover{
+    color: #6b9f00;
+    font-size: 16px;
+    transition: 0.2s;
+}
+.button{
+    background-color: #6b9f00;
+    width: 213px;
+    height: 41px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin-left: 4px;
+}
+.button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.solid{
+    width: 80px;
+    border: 3px solid #6b9f00;
+    margin-bottom: 10px;
+}
+.solid2{
+    width: 50px;
+    border: 1.8px solid #6b9f00;
+    margin-bottom: 4px;
+}
+.banner{
+    font-family: 'PT Serif Caption', serif;
+    height: 330px;
+    width: 100%;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inner-text{
+    height: 222px;
+    width: 576px;
+    text-align: center;
+    font-family: 'PT Serif Caption', serif;
+}
+.inner-text p{
+    color: #6b9f00;
+}
+.inner-text h1{
+    font-size: 39px;
+    font-family: 'Amiri',serif;
+}
+.inner-text h3{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 20px 0px;
+    margin-bottom: 24px ;
+}
+
+
+.Outer-2nd{
+  width: 100%;
+  height: 754px;
+  margin: 25px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin-bottom: -10px;
+}
+
+.text-2nd{
+  width: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  font-size: 13px;
+} 
+.text-inner{
+    width: 550px;
+    height: 600px;
+}
+.text-inner h2{
+    font-family: 'Amiri',serif;
+    font-size: 24px;
+    line-height: 2;
+}
+.text-inner h5{
+    line-height: 2;
+}
+.text-inner p{
+    line-height: 2;
+    font-size: 11px;
+
+}
+.text-inner img{
+    width: 500px;
+
+}
+.image-2nd{
+  width: 30%;
+  position: absolute;
+  top: 10px;
+  right: 200px;
+}
+.image-2nd img{
+    width: 450px;
+    height: 600px;
+}
+.paras{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.para1 h3, p{
+    font-size: 11px;
+}
+.para2 h3, p{
+    font-size: 11px;
+}
+
+.text-inner img{
+    width: 550px;
+    height: fit-content;
+}
+
+/* About section starts here */
+.about{
+    margin-top: -90px;
+}
+#about{
+    height: 454px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    position: relative;
+    background-color: #F5F7F8;;
+}
+.about-img{
+    position: absolute;
+    top: 15px;
+    left: 300px;
+}
+
+.about-img img{
+    width: 380px;
+    height: 380px;
+    box-shadow: 20px 20px 0px 0px #6B9F00;
+}
+
+.about-text{
+    width: 35%;
+    position: absolute;
+    top: 15px;
+    left: 750px;
+}
+.about-text h2{
+    font-size: 36px;
+    font-family: 'Amiri',serif;
+    color: #182434;
+    line-height: 2;
+}
+.about-text h5{
+    font-size: 18px;
+    font-family: 'Amiri',serif;
+    line-height: 2;
+}
+.about-text .p1, .p2{
+    font-size: 14px;
+    font-family: 'Poppins';
+    margin: 0 0 24px;
+    color: #3A3A3A;
+}
+.about-text button{
+    font-size: 16px;
+    padding: 10px 28px;
+    background-color: #6b9f00;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+
+/* About section ends here */
+
+/* Smart living section starts here */
+#smartliving{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 74px;
+}
+
+#smarttext{
+    width: 40%;
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    text-align: center;
+    margin-top: 24px;
+}
+#smartimage{
+    width: 40%;
+}
+#smartimage img{
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    top: 15px;
+    right: 250px;  
+    box-shadow: 20px 20px 0 0 #6B9F00;
+}
+
+
+#smarttext h2{
+    font-size: 34px;
+    font-family: 'Amiri',serif;
+    color: #182434;
+    line-height: 2;
+}
+#smarttext h5{
+    font-size: 13px;
+    color: #3A3A3A;
+    line-height: 3;
+}
+ .p1, .p2{
+    font-size: 14px;
+    font-family: 'Poppins';
+    margin: 0 0 24px;
+    color: #3A3A3A;
+}
+#smarttext button{
+    font-size: 16px;
+    padding: 10px 28px;
+    background-color: #6b9f00;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.solid3{
+    width: 100px;
+    border: 3px solid #6b9f00;
+    margin-bottom: 10px;
+    margin-left: 238px;
+}
+/* Smart living section ends here */
+
+.solar{
+    text-align: center;
+    margin-top: 25px;
+}
+.solar h2{
+    font-size: 30px;
+    text-align: center;
+}
+.solar-text p{
+    text-align: left;
+}
+
+/* Client section starts here */
+#client{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    background-color: #F5F7F8;
+}
+#client h2{
+    font-size: 36px;
+    font-family: 'Amiri',serif;
+    line-height: 2;
+}
+#client .h5{
+    line-height: 2;
+    color:#3A3A3A;
+    font-weight: 300;
+}
+
+#client-section{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.client{
+    width: 350px;
+    height: 280px;
+    background-color: white;
+    box-shadow: 0px 40px 40px -20px rgba(201.00000000000003, 201.00000000000003, 201.00000000000003, 0.5);
+    border-radius: 6px;
+    position: relative;
+}
+.client img{
+    width: 25%;
+    height: 30%;
+    border-radius: 50%;
+    position: absolute;
+    top: -42px;
+    left: 130px;
+}
+.client-text{
+    padding: 60px 30px 30px 30px;
+}
+.client p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    padding-bottom: 8px;
+}
+.client h4{
+    font-family: 'Amiri',serif;
+    line-height: 2;
+
+}
+.client h5{
+    line-height: 2;
+    color: #6b9f00;
+    font-weight: 300;
+}
+.solid4{
+    width: 100px;
+    border: 3px solid #6b9f00;
+    margin-bottom: 10px;
+    margin-left: 47%;
+}
+
+
+
+/* Client section ends here */
+
+/* Number section starts here */
+#number-section{
+    padding-top: 23px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#number-section h2{
+    font-size: 36px;
+    font-family: 'Amiri',serif;
+    line-height: 2;
+}
+
+#number-section h5{
+    line-height: 2;
+    color: #3A3A3A;
+    font-weight: 300;
+    padding-bottom: 24px;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.box-part2{
+    margin-top: 24px;
+}
+.number-box{
+    width: 200px;
+    height: 150px;
+    background-color: #F5F7F8;
+    padding: 24px;
+    border-radius: 6px;
+}
+.number-box h3{
+    font-size: 44px;
+    color: rgb(189, 189, 189);
+}
+.number-box h4{
+    font-family: 'Amiri',serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2;
+}
+.number-box p{
+    font-size: 12px;
+    color: #3A3A3A;
+}
+.btn{
+    font-size: 16px;
+    padding: 10px 28px;
+    background-color: #6b9f00;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 24px 0;
+    
+}
+/* Number section ends here */
+
+/* icon section starts here */
+#icon-section{
+    padding: 5px 0px 15px 0;
+    width: 100%;
+    height: 20vh;
+    background-color: #F5F7F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+#icon-section .icon{
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+
+.icon i{
+    font-size: 30px;
+    color: #6B9F00;
+    line-height: 2;
+}
+.icon h4{
+    font-size: 24px;
+    font-family: 'Amiri',serif;
+    line-height: 2;
+}
+.icon p{
+    font-size: 15px;
+    font-family: 'Amiri',serif;
+    line-height: 2;
+}
+
+/* icon section ends here */
+
+#footer{
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #484849;
+    color: white;
+    padding: 24px 100px 12px 100px;
+}
+.left-div{
+    font-size: 13px;
+}
+.left-div span{
+    color: #6B9F00;
+}
+.right-div i{
+    color: #6B9F00;
+}
+
